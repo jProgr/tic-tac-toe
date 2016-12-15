@@ -2,7 +2,7 @@
 
 var player_symbol = "x";
 var computer_symbol = "o";
-var empty_symbol = "-"
+var empty_symbol = "-";
 var grid_content = [empty_symbol, empty_symbol, empty_symbol, empty_symbol, empty_symbol, empty_symbol, empty_symbol, empty_symbol, empty_symbol];
 var game_end = false;
 var winner_symbol = empty_symbol;
@@ -114,4 +114,3 @@ chooser.forEach((button) => { button.addEventListener("click", set_player_symbol
 var grid_space = [];
 for (var i=1; i<10; i++) { grid_space.push(document.getElementById("g" + i)); }
 grid_space.forEach((space, i) => { space.addEventListener("click", player_turn, false); });
-
