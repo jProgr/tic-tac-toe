@@ -1,0 +1,92 @@
+body
+{ background-color: #aad2ba; }
+
+#main
+{
+    margin-top: 10%;
+    text-align: center;
+}
+
+button
+{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    background-color: transparent; 
+    border: none;
+    font-size: 10px;
+    font-family: monospace;
+}
+
+#options
+{ margin-top: 20px; }
+
+#winner_message
+{
+    font-family: monospace;
+    font-size: 12px;
+}
+
+/* Grid */
+#grid
+{ line-height: .8; }
+
+#g1
+{
+    border-right: thin solid #1d1e18;
+    border-bottom: thin solid #1d1e18;
+}
+
+#g2
+{
+    border-right: thin solid #1d1e18;
+    border-bottom: thin solid #1d1e18;
+    border-left: thin solid #1d1e18;
+}
+
+#g3
+{
+    border-bottom: thin solid #1d1e18;
+    border-left: thin solid #1d1e18;
+}
+
+#g4
+{
+    border-top: thin solid #1d1e18;
+    border-right: thin solid #1d1e18;
+    border-bottom: thin solid #1d1e18;
+}
+
+#g5
+{
+    border-top: thin solid #1d1e18;
+    border-right: thin solid #1d1e18;
+    border-bottom: thin solid #1d1e18;
+    border-left: thin solid #1d1e18;
+}
+
+#g6
+{
+    border-top: thin solid #1d1e18;
+    border-bottom: thin solid #1d1e18;
+    border-left: thin solid #1d1e18;
+}
+
+#g7
+{
+    border-top: thin solid #1d1e18;
+    border-right: thin solid #1d1e18;
+}
+
+#g8
+{
+    border-top: thin solid #1d1e18;
+    border-right: thin solid #1d1e18;
+    border-left: thin solid #1d1e18;
+}
+
+#g9
+{
+    border-top: thin solid #1d1e18;
+    border-left: thin solid #1d1e18;
+}
